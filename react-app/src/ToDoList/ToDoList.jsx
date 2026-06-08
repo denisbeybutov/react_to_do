@@ -63,9 +63,9 @@ export default function ToDoList(){
     }
 
     function handleChange(e,index){
-       
+        const updatedTask = {...tasks[index], value: e.target.value}
         const newTasks = [...tasks];
-        newTasks[index].value = e.target.value;
+        newTasks[index] = updatedTask;
         setTasks(newTasks);
     }
 

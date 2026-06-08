@@ -1,0 +1,14 @@
+
+.drop__wrapper {
+    width: 300px;
+    border: 1px solid red ;
+}
+.list {
+    font-size: 20px;    
+    width: 200px;
+}
+
+.list-item {
+    font-size: 20px;
+    
+}

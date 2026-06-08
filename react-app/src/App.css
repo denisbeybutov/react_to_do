@@ -1,0 +1,12 @@
+.more__button {
+    color: black;
+    font-size: 20px;
+}
+
+.more__button:hover{
+    background-color: rgb(252, 225, 225);
+}
+
+.hidden{
+    display: none;
+}
