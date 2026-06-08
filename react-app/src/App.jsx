@@ -10,6 +10,7 @@ import Modal from './Modal/Modal.jsx'
 import Drop from './Drop/drop.jsx'
 import UserList from './UserList/UserList.jsx'
 import MemoryGame from './MemoryGame/MemoryGame.jsx'
+import TicTacToe from './TicTacToe/TicTacToe.jsx'
 
 function App() {
   
@@ -17,8 +18,8 @@ function App() {
  
   return (
     <>
-      
-      <MemoryGame
+      <TicTacToe/>
+      {/* <MemoryGame
         images={[
               "https://images.unsplash.com/photo-1626808642875-0aa545482dfb",
               "https://images.unsplash.com/photo-1546842931-886c185b4c8c",
@@ -27,7 +28,7 @@ function App() {
               "https://images.unsplash.com/photo-1496483648148-47c686dc86a8",
               "https://images.unsplash.com/photo-1591181520189-abcb0735c65d",
         ]}
-      />
+      /> */}
       {/*-----------Список пользователей 1-------------*/}
       {/* <UserList/> */}
 
