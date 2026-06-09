@@ -28,7 +28,7 @@ export default function TicTacToe(){
         let newSteps = structuredClone(step);
         newSteps.push(newField);
         setStep(newSteps);
-        console.log(step)
+        // console.log(step)
         
         if(player === 'O') setPlayer('X')
         else setPlayer('O')

@@ -1,0 +1,93 @@
+body {
+    box-sizing: border-box;
+}
+
+.users{
+    font-size: 15px;
+}
+
+.users__list{
+    padding: 0;
+}
+
+.users__item {
+    font-size: 15px;
+}
+
+.button {
+    font-size: 15px;
+    color: black;
+    width: 200px;
+}
+
+.button:hover {
+    background-color: grey;
+}
+
+.profession__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 200px;
+    padding: 0;
+    position: absolute;
+    top: 25px;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0,.5);
+    z-index: 1;
+    border-radius: 5px;
+}
+.profession__item{
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.profession__button-item {
+    color: black;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.profession__button-item:hover{
+    background-color: grey;
+}
+
+.hidden {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.new-user{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.new-user__input{
+    font-size: 12px;
+    border: none;
+    color: black;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin: 0;
+}
+
+.new-user__input-name::placeholder{
+    font-size: 12px;
+}
+
+.new-user__button{
+    width: 100px;
+    padding: 0;
+}

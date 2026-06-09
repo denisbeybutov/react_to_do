@@ -9,6 +9,7 @@ import ToDoList from './ToDoList/ToDoList.jsx'
 import Modal from './Modal/Modal.jsx'
 import Drop from './Drop/drop.jsx'
 import UserList from './UserList/UserList.jsx'
+import UserList2 from './UserList2/UserList2.jsx'
 import MemoryGame from './MemoryGame/MemoryGame.jsx'
 import TicTacToe from './TicTacToe/TicTacToe.jsx'
 
@@ -18,7 +19,9 @@ function App() {
  
   return (
     <>
-      <TicTacToe/>
+      {/*-----------Список пользователей 2-------------*/}
+      <UserList2/>
+      {/* <TicTacToe/> */}
       {/* <MemoryGame
         images={[
               "https://images.unsplash.com/photo-1626808642875-0aa545482dfb",
