@@ -1,0 +1,16 @@
+.users{
+    font-size: 15px;
+}
+
+.users__list{
+    padding: 0;
+}
+
+.users__item {
+    font-size: 15px;
+}
+
+.button{
+    font-size: 15px;
+    color: black;
+}
